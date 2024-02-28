@@ -1,0 +1,173 @@
+/* Inicio reset de estilos */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Fin reset de estilos */
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Inicio estilo navbar */
+
+#navbar {
+    background-color: #000F08;
+    padding: 28px 30px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#navbar-brand {
+    padding-right: 25px;
+}
+
+/* Fin estilo navbar */
+
+/* Inicio estilos header */
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 52px;
+    padding-bottom: 179px;
+}
+
+#titulo-header,
+#subtitulo-header {
+    text-align: end;
+    color: white;
+}
+
+#titulo-header {
+    font-size: 60px;
+}
+
+#subtitulo-header {
+    font-size: 40px;
+}
+
+/* Final estilos header */
+
+/* Inicio estilos sección we work */
+
+#we-work {
+    text-align: center;
+    padding-top: 153px;
+    padding-bottom: 131px;
+}
+
+#we-work img {
+    width: 519px;
+    height: 344px;
+}
+
+#we-work h2 {
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+
+#we-work p {
+    font-size: 25px;
+}
+
+/* Final estilos sección we work */
+
+/* Inicio estilos sección charlas */
+
+#proximas-charlas {
+    font-size: 0px;
+    padding: 90px 0px;
+    background-color: #A4452C;
+    color: white;
+}
+
+#proximas-charlas .wrapper-img {
+    display: inline-block;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+
+#proximas-charlas .wrapper-texto {
+    display: inline-block;
+    width: 50%;
+}
+
+#proximas-charlas .wrapper-texto h3 {
+    font-size: 40px;
+}
+
+#proximas-charlas .wrapper-texto h4 {
+    font-size: 33px;
+}
+
+#proximas-charlas .wrapper-texto small {
+    font-size: 20px;
+}
+
+#proximas-charlas .wrapper-texto p {
+    font-size: 25px;
+}
+
+/* Final estilos sección charlas */
+
+/* Inicio estilos eventos anteriores */
+
+#eventos {
+    text-align: center;
+}
+
+#eventos h2{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#eventos img{
+    padding-bottom: 48px;
+}
+
+#eventos .wrapper-articulos article{
+    text-align: center;
+}
+
+#eventos .wrapper-articulos .evento {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+/* Final estilos eventos anteriores */
+
+/* Inicio estilos footer */
+
+#footer-principal {
+    color: white;
+    background-color: #000F08;
+    text-align: center;
+}
+
+#footer-principal p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#footer-principal .wrapper-iconos{
+    font-size: 70px;
+}
+
+/* Final estilos footer */
